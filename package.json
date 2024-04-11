@@ -6,7 +6,16 @@
   "repository": "https://github.com/Pro-gra-mer/Web_Cursos.git",
   "author": "Rebeca Pérez",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
-    "mongoose": "^8.3.1"
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1",
+    "nodemon": "^3.1.0"
   }
 }
