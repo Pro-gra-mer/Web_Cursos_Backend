@@ -1,0 +1,12 @@
+{
+  "name": "web_cursos_api",
+  "version": "Api Rest de la web de cursos",
+  "description": "Api Rest de la web personal",
+  "main": "index.js",
+  "repository": "https://github.com/Pro-gra-mer/Web_Cursos.git",
+  "author": "Rebeca Pérez",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^8.3.1"
+  }
+}
