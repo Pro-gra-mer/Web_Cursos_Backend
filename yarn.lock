@@ -62,6 +62,11 @@ binary-extensions@^2.0.0:
   resolved "https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.3.0.tgz"
   integrity sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==
 
+bluebird@3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.0.5.tgz#2ff9d07c9b3edb29d6d280fe07528365e7ecd392"
+  integrity sha512-5o9RE3ued60EEv6gcT5L2APn/4zSpAwzeH65fuF+d/K3/LGZ9JpGIlDU2HeI4NujAY5Wh7mUBM5UF3Zuh8bBhQ==
+
 body-parser@1.20.2, body-parser@^1.20.2:
   version "1.20.2"
   resolved "https://registry.npmjs.org/body-parser/-/body-parser-1.20.2.tgz"
@@ -609,6 +614,18 @@ mongodb@6.5.0:
     "@mongodb-js/saslprep" "^1.1.5"
     bson "^6.4.0"
     mongodb-connection-string-url "^3.0.0"
+
+mongoose-paginate-v2@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/mongoose-paginate-v2/-/mongoose-paginate-v2-1.8.0.tgz#29343fde550b9c6e23a9c9e1cb23c97dee77743e"
+  integrity sha512-JiGbGxc/ytIA8UL4GaJdCLuxv5i99+XmTdP4v9YXwiJ85tdOxdrc2NQJL+0O+NRbIl+aAhaOnDbL9bJt7o3zIA==
+
+mongoose-paginate@^5.0.3:
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/mongoose-paginate/-/mongoose-paginate-5.0.3.tgz#d7ae49ed5bf64f1f7af7620ea865b67058c55371"
+  integrity sha512-sqrQJJ2nY7z2S5XzrMxbnlnAXpOnqyyM8t/FQ4Rv0uimYyacitmVSZOjlotbiQLI8I4v4hy3dCtJn31+OPl5Wg==
+  dependencies:
+    bluebird "3.0.5"
 
 mongoose@^8.3.1:
   version "8.3.1"
